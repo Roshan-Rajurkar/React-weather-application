@@ -1,0 +1,36 @@
+.form-container {
+    margin: 20px 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-container button {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

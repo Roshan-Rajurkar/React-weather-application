@@ -1,0 +1,27 @@
+.card {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.conditions {
+    margin-bottom: 10px;
+}
+
+.humidity,
+.wind {
+    margin-top: 10px;
+}
